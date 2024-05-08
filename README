@@ -1,0 +1,17 @@
+sudo python3 elastiflow_list_mibs.py -h
+usage: elastiflow_list_mibs.py [-h] [-g GROUP] [-a] [-o OUTPUT]
+
+Enter an option
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -g GROUP, --group GROUP
+                        Add group name should be one of: vyos, ubiquiti_edgemax, ubiquiti_unifi, synology, samsung_printer, openwrt, mikrotik_routeros, mikrotik_switchos, macos, linux, juniper_ex, juniper_qfx, juniper_mx, juniper_srx,
+                        generic, cisco_c1000, cisco_c2960l, calix_axos, arista (default: None)
+  -a, --all             Print everything (default: False)
+  -o OUTPUT, --output OUTPUT
+                        Output file (default: None)
+
+
+
+This script relies on an external file description.yml. This includes all the descriptions for the current MIBS that ElastiFlow 6.4.3 includes. 
